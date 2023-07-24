@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"       content="Henry">
+    <meta name="description"  content="login and register">
+    <meta name="keywords"     content="login + register + website + html">
+    <title>fithub</title>
+    <link href="/images/fitHub logo-fotor-bg-remover-20230708175213.png" rel="icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/fonts/css/all.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+<section class="description">
+    <nav>
+        <a href="index.html"><img src="./images/green logo-fotor-bg-remover-20230714113054.png" alt="" /></a>
+        <h1>Fit<font style="color: rgba(1, 146, 100, 0.849);">Hub</font></h1>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html" class="active" id="index">HOME</a></li>
+            <li class="after"><a href="services.html">SERVICE</a></li>
+            <li class="after"><a href="about.html">ABOUT</a></li>
+            <li class="after"><a href="contact.html">CONTACT</a></li>
+            <li class="after"><a href="blog.html">BLOG</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="service">
+        <h1>CONTACT</h1>
+        <a href="index.html" class="home">Home</a>
+      </div>
+
+
+      <section class="contact-section">
+        <div class="contact-card">
+          <div class="card-icon"> <i class="fa-solid fa-phone"></i></i></div>
+          <div class="contact-content">
+            <h3>NEED HELP</h3>
+            <p style="color: #167241;"><strong>+233 207 422 456, +233 548 692 331</strong></p>
+          </div>
+        </div>
+      
+        <div class="contact-card">
+          <div class="card-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contact-content">
+            <h3>QUESTIONS</h3>
+            <p style="color: #167241;"><strong>osborndzamenu347@gmail.com</strong></p>
+          </div>
+        </div>
+      
+        <div class="contact-card">
+          <div class="card-icon"> <i class="fa-solid fa-map-location-dot"></i></div>
+          <div class="contact-content">
+            <h3>ADDRESS</h3>
+            <p style="color: #167241;"><strong>8500, Kofi Annan Street, Chicago, IL, 55030</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15882.290884266551!2d-0.18474012356002395!3d5.62991086397387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b6c288394cb%3A0x6b2b071a3bae03ba!2sShiashie%2C%20Accra!5e0!3m2!1sen!2sgh!4v1689529450374!5m2!1sen!2sgh"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map-image"></iframe>
+      </div>
+
+      <div class="feedback">
+        <div class="message">
+          <h2>SEND US A MESSAGE</h2>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email*</label>
+            <input type="text" class="form-text tex-muted" id="exampleInputEmail1">
+          </div>
+      
+          <div class="form-group">
+            <label for="exampleInputText">Phone Number(Optional)*</label>
+            <input type="text" class="form-text tex-muted" id="exampleInputText">
+          </div>
+      
+          <div class="form-group">
+            <label for="exampleInputText">Firstname*</label>
+            <input type="text" class="form-text tex-muted" id="exampleInputText">
+          </div>
+      
+          <div class="form-group">
+            <label for="exampleInputText">Lastname*</label>
+            <input type="text" class="form-text tex-muted" id="exampleInputText">
+          </div>
+      
+          <div class="form-group">
+            <label for="FormControlTeaxtArea1">Message</label>
+            <textarea class="form-control" id="FormControlTextArae1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </div>
+
+
+      
+      <footer>
+        <div class="footer-content">
+          <div class="footer-section stay-connected">
+            <h3>Stay Connected:</h3>
+            <p>Follow us on social media for the latest updates and fitness tips.</p>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section contact-us">
+            <h3>Contact Us:</h3>
+            <p>Email: <a href="mailto:info@fitnesshealthhub.com">info@fithubhealthhub.com</a></p>
+            <p>Phone: +233 207 422 456</p>
+          </div>
+      
+          <div class="footer-section explore">
+            <h3>Explore:</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section fitness-resources">
+            <h3>Fitness Resources:</h3>
+            <ul>
+              <li><a href="#">Workout Plans</a></li>
+              <li><a href="#">Nutrition Tips</a></li>
+              <li><a href="#">Exercise Videos</a></li>
+              <li><a href="#">Healthy Recipes</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>Copyright © 2023 Fitness & Health Hub. All rights reserved.</p>
+          <p>Designed and Developed by [FITHUB]</p>
+        </div>
+      </footer>
+      
+</section>
+</body>
+</html>
