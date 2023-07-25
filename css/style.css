@@ -13,7 +13,7 @@
 .header{
     min-height: 100vh !important;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)) ,url(/images/dumbell-1.jpeg);
+    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)) ,url(../images/dumbell-1.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -21,7 +21,7 @@
 .description{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)) ,url(/images/dumbell-1.jpeg);
+    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)) ,url(../images/dumbell-1.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -267,7 +267,7 @@ html, body {
 .homepage-content1{
     width: 100%;
     height: 700px;
-    background: url(/images/pressup2.jpeg);
+    background: url(../images/pressup2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -570,7 +570,7 @@ margin: 10px 0;
     height: 580px;
     margin-left: 1.5%;
     margin-top: 1.9%;
-    background:linear-gradient(rgba(0,0,0,0.5),#1a2f24), url(/images/youtube.jpeg);
+    background:linear-gradient(rgba(0,0,0,0.5),#1a2f24), url(../images/youtube.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -716,7 +716,7 @@ footer {
   }
   
   footer a {
-    color: #007bff;
+    color: #dddddd;
     text-decoration: none;
   }
   
@@ -944,7 +944,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     height: 500px;
-    background: url(/images/riding.png);
+    background: url(../images/riding.png);
     background-position: center;
     background-size: cover;
 }
@@ -960,7 +960,7 @@ footer {
 .programs-card1 {
     width: 21%;
     height: 55%;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(/images/personal-trainer.jpeg);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(../images/personal-trainer.jpeg);
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -970,7 +970,7 @@ footer {
 .programs-card2{
     width: 21%;
     height: 55%;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(/images/free-workout.jpeg);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(../images/free-workout.jpeg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -979,7 +979,7 @@ footer {
 .programs-card3{
     width: 21%;
     height: 55%;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)),  url(/images/crossfit.jpeg);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)),  url(../images/crossfit.jpeg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -989,7 +989,7 @@ footer {
 .programs-card4{
     width: 21%;
     height: 55%;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)),  url(/images/martial\ arts.jpg);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)),  url(../images/martial\ arts.jpg );
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -1163,7 +1163,7 @@ text-decoration: underline;
     margin-left: 3%;
     display: flex;
     position: absolute;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(/images/action\ sports.jpeg);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(../images/action\ sports.jpeg );
     background-size: cover;
     background-position: center;
 }
@@ -1174,7 +1174,7 @@ text-decoration: underline;
     margin-left: 18%;
     display: flex;
     position: absolute;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(/images/chisel\ it.jpeg);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(../images/chisel\ it.webp);
     background-size: cover;
     background-position: center;
 }
