@@ -810,7 +810,7 @@ footer {
     text-align: center;
     color: #fff;
     padding-top: 30px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Trebuchet MS', 
     'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
@@ -819,6 +819,18 @@ footer {
     color: #fff;
     text-align: center;
     margin-top: 1%;
+    font-size: 18px;
+}
+@media screen and (max-width:320px){
+    .welcome{
+        height: 140px;
+    }
+    .welcome h1{
+        font-size: 25px;
+    }
+    .welcome p{
+        font-size: 10px;
+    }
 }
 
 .wave-container {
@@ -884,7 +896,7 @@ footer {
     font-size: 40px;
     margin-top: 2%;
 }
-.schedule{
+/* .schedule{
     font-size: 15px;
     margin-top: 10%;
     padding: 5px 20px;
@@ -897,10 +909,27 @@ footer {
     color: #fff;
     background: #167241;
     transition: .5s;
-}
+} */
 .wave-card p{
     padding: 10px;
     font-size: 14px;
+}
+
+@media screen and (max-width: 320px){
+    .wave-card{
+        height: 320px;
+        background: #167241;
+    }
+    #dumbell{
+        font-size: 30px;
+        margin-top: 0%;
+    }
+    .wave-card h2{
+        font-size: 12px;
+    }
+    .card-button{
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1136,6 +1165,11 @@ footer {
 .free-training a:hover{
 text-decoration: underline;
 }
+@media screen and (max-width: 320px){
+    .free-training h1{
+        font-size: 45px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .free-training {
@@ -1305,8 +1339,9 @@ text-decoration: underline;
       
     .trainers-container {
         display: flex;
+        flex-direction: column;
         width: 100%;
-        height: 230px;
+        height: 430px;
         padding: 10px;
       }
       
@@ -1314,11 +1349,12 @@ text-decoration: underline;
     .trainers-card {
         display: flex;
         align-items: center;
-        width: 45%;
+        width: 95%;
         height: 200px;
         background: #333;
         border-radius: 5px;
         padding: 0px;
+        margin-left: 2.5%;
       }
 
       .trainers-image {
@@ -1337,13 +1373,13 @@ text-decoration: underline;
       } 
 
       .trainers-text h2 {
-        font-size: 12px;
+        font-size: 15px;
         margin-bottom: 2px;
         color: #fff;
       }
     
       .trainers-text p {
-        font-size: 8.5px;
+        font-size: 10px;
       }
   }
 
@@ -1706,6 +1742,15 @@ text-decoration: underline;
     }
     .explore-card {
         margin-left: 0%;
+    }
+}
+@media screen and (max-width: 768px){
+    .explore-card{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .explore-card p{
+        font-size: 25px;
     }
 }
 
