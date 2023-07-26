@@ -1174,7 +1174,7 @@ text-decoration: underline;
     margin-left: 18%;
     display: flex;
     position: absolute;
-    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(../images/chisel\ it.webp);
+    background:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.4)), url(../images/chisel\ it.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -1308,7 +1308,6 @@ text-decoration: underline;
         width: 100%;
         height: 230px;
         padding: 10px;
-        background: red;
       }
       
     
